@@ -5,21 +5,21 @@
 # 指令
 
 ## .texas 德扑指令
-`.texas help` //指令列表
-`.texas clear` //清空所有参与者
-`.texas join [积分值]` //设置初始积分值并加入游戏，重复加入将改变顺位
-`.texas exit` //离开游戏
-`.texas order` //查看所有参与者和顺位，目前默认按照加入顺序排序
-`.texas setp [积分值]` //重设积分值，可以使用加减号来加减设置
-`.texas showp` //查看当前积分值
-`.texas bet [下注值]` //下注或加注
-`.texas fold` //盖牌
-`.texas perflop` //perflop阶段，为所有参与者发底牌
-`.texas flop` //flop阶段，发3张公共牌
-`.texas turn` //turn阶段，发第4张公共牌
-`.texas river` //river阶段，发第5张公共牌
-`.texas showdown` //亮牌，计算胜者，注池积分并自动重新洗牌
-`.texas shuffle` //清空所有抽牌并重新洗牌
+- `.texas help` //指令列表
+- `.texas clear` //清空所有参与者
+- `.texas join [积分值]` //设置初始积分值并加入游戏，重复加入将改变顺位
+- `.texas exit` //离开游戏
+- `.texas order` //查看所有参与者和顺位，目前默认按照加入顺序排序
+- `.texas setp [积分值]` //重设积分值，可以使用加减号来加减设置
+- `.texas showp` //查看当前积分值
+- `.texas bet [下注值]` //下注或加注
+- `.texas fold` //盖牌
+- `.texas perflop` //perflop阶段，为所有参与者发底牌
+- `.texas flop` //flop阶段，发3张公共牌
+- `.texas turn` //turn阶段，发第4张公共牌
+- `.texas river` //river阶段，发第5张公共牌
+- `.texas showdown` //亮牌，计算胜者，注池积分并自动重新洗牌
+- `.texas shuffle` //清空所有抽牌并重新洗牌
 
 **注意事项**：
 - 牌堆并行化功能尚在开发中，目前仅支持同时运行一局游戏。
